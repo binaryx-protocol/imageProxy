@@ -1,0 +1,19 @@
+---
+deploy:
+  master: 'echo ''I will speak on: hf deploy master'' '
+  develop: 'echo ''I will speak on: hf deploy develop'' '
+before_deploy_commit: 'echo ''Before committing with deploy'' '
+before_save_commit: 'echo ''Before save'' '
+locale: en
+editor_path: nano
+skip_colorize: false
+
+source_branch: main
+mode: feature
+task_branch_name_tpl: "{mode}/{task_name}"
+
+project_name: HF
+commit_massage_tpl: "[{project_name}] #{task_name}: {commit_message}"
+
+run:
+  test: 'echo "run test"'
