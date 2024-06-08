@@ -146,7 +146,7 @@ services:
       ### Watermark
       ### See: https://docs.imgproxy.net/configuration/options#watermark
       IMGPROXY_WATERMARK_OPACITY: 1
-      IMGPROXY_WATERMARK_PATH: "/home/watermark.jpg"
+      IMGPROXY_WATERMARK_PATH: ""
       IMGPROXY_WATERMARK_DATA: ""
       IMGPROXY_WATERMARK_URL: ""
 
@@ -154,7 +154,7 @@ services:
       ### See: https://docs.imgproxy.net/configuration/options#fallback-image
       IMGPROXY_FALLBACK_IMAGE_TTL: 0
       IMGPROXY_FALLBACK_IMAGE_HTTP_CODE: 404
-      IMGPROXY_FALLBACK_IMAGE_PATH: "/home/noimage.jpg"
+      IMGPROXY_FALLBACK_IMAGE_PATH: "/home/noimage.png"
       IMGPROXY_FALLBACK_IMAGE_DATA: ""
       IMGPROXY_FALLBACK_IMAGE_URL: ""
 
