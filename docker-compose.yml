@@ -89,7 +89,7 @@ services:
 
       ### Memory usage tweaks
       ### See: https://docs.imgproxy.net/configuration/options#memory-usage-tweaks
-      IMGPROXY_FREE_MEMORY_INTERVAL: 10
+      IMGPROXY_FREE_MEMORY_INTERVAL: 20
       IMGPROXY_DOWNLOAD_BUFFER_SIZE: 0
       IMGPROXY_BUFFER_POOL_CALIBRATION_THRESHOLD: 1024
 
