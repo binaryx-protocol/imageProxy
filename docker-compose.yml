@@ -119,10 +119,10 @@ services:
 
       ### Compression
       ### See: https://docs.imgproxy.net/configuration/options#compression
-      IMGPROXY_QUALITY: 80
-      IMGPROXY_FORMAT_QUALITY: jpeg=80,webp=70,avif=50
-      #IMGPROXY_JPEG_PROGRESSIVE: false
-      #IMGPROXY_PNG_INTERLACED: false
+      IMGPROXY_QUALITY: 90
+      IMGPROXY_FORMAT_QUALITY: jpeg=90,webp=85,avif=70
+      IMGPROXY_JPEG_PROGRESSIVE: true
+      IMGPROXY_PNG_INTERLACED: true
       IMGPROXY_PNG_QUANTIZATION_COLORS: 256
       #IMGPROXY_PNG_QUANTIZE: false
       IMGPROXY_AVIF_SPEED: 9
